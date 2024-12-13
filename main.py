@@ -253,7 +253,7 @@ def neural_network_main(data="local", type =None):
 
 
 def baseline_model_main():    
-    df_path = r'C:\projects\deep_learning\project2\data\raw\train.csv'
+    df_path = r'C:\projects\deep_learning\project2\data\train.csv'
     X, y, y_label = load_and_preprocess_numerical_data(df_path)
 
     # Convert X and y into PyTorch tensors

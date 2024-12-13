@@ -67,8 +67,8 @@ TRAINING_CONFIG = {
 # Data parameters
 DATA_CONFIG = {
     "data_path": r"data/raw/train.csv",
-    "test_dataset_path": r"data/raw/test.csv",
-    "data_path_kaggle": r"data/raw/spotify_songs.csv",
+    "test_dataset_path": r"data/test.csv",
+    "data_path_kaggle": r"data/spotify_songs.csv",
     "test_size": 0.2,       # Fraction of data for validation
     "random_state": 42,     # Random seed for reproducibility
 }
