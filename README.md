@@ -18,7 +18,7 @@ This project focuses on implementing and tuning various machine learning models,
 ### Get the Kaggle data here
 
 spotify_songs <- https://www.kaggle.com/code/jgabrielsb/spotify-songs-music-genre-predictor-part-i/notebook
-```
+
 ### Data Dictionary
 
 # `spotify_songs.csv`
