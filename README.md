@@ -1,6 +1,14 @@
 # Deep Learning Project
 
-This project focuses on implementing and tuning various machine learning models, including a neural network model using PyTorch, XGBoost, and Random Forest. The goal is to preprocess and evaluate datasets, apply neural network hyperparameter tuning, and achieve high performance in classification tasks.
+This project focuses on developing a neural network-based music genre classification tool using a
+dataset with five music genres. The dataset is analyzed through descriptive statistics and baseline
+classification using baseline Machine Learning models. A neural network model is then designed and
+optimized by experimenting with different hyperparameters, using heuristics like batch normalization,
+dropout, and gradient clipping to improve performance. Predictions are made for the test set, and
+results are exported. The model is extended by incorporating textual information, and the neural
+network is retrained with a new dataset containing an additional genre, using transfer learning.
+
+Keywords: music genre classification, neural networks, machine learning, transfer learning, textual data
 
 ## Project Structure
 
