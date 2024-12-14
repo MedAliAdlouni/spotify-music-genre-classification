@@ -55,62 +55,13 @@ spotify_songs <- https://www.kaggle.com/code/jgabrielsb/spotify-songs-music-genr
 
 Here’s an overview of the folder and file structure in the project:
 
-\begin{verbatim}
-spotify-music-genre-classification
-│   .gitattributes                # Git configuration for file attributes
-│   .gitignore                    # Specifies files to be ignored by Git
-│   config.py                     # Configuration file for constants and settings
-│   main.py                       # Main script to run the project
-│   README.md                     # Project overview and instructions
-│   requirements.txt              # Python dependencies for the project
-│
-├── data/
-│   │   spotify_songs.csv         # Full dataset for Spotify song information
-│   │   test.csv                  # Test dataset for model evaluation
-│   │   train.csv                 # Training dataset for model development
-│
-├── EDA/
-│   │   exploratory_data_analysis.ipynb  # Notebook for data exploration and visualization
-│
-├── models/
-│   │   model_local_and_numerical_and_textual__data.pth  # Neural network model checkpoint
-│   │
-│   ├── randomforestmodel/        # Folder for Random Forest model files
-│   └── xgboostmodel/             # Folder for XGBoost model files
-│       │   xgboostmodel_model.joblib  # Trained XGBoost model
-│
-├── report/
-│   │   case_study.pdf            # Case study document
-│   │   report_ELADLOUNI_MOHAMMEDALI.pdf  # Final project report
-│
-├── results/
-│   │   neural_network_hypermarameter_tuning_results._for_numerical_data.csv  
-│   │                              # Results of neural network hyperparameter tuning
-│   │
-│   ├── genre_classification_predictions/
-│   │       ELADLOUNI_prediction _numerical_and_textual.csv  
-│   │       ELADLOUNI_prediction _numerical_data.csv  
-│   │                              # Model predictions for genre classification
-│   │
-│   ├── neural_networks_losses/
-│   │       loss_textual.png       # Loss graph for textual features
-│   │       numerical_and_textual_loss.png  # Loss graph for combined features
-│   │       training_loss_nn.png   # Training loss graph for neural networks
-│   │       transfer_learning_loss.png  # Transfer learning loss graph
-│   │
-│   └── xgboostmodel/
-│       │   best_accuracy.json     # Best accuracy metrics for XGBoost model
-│       │   best_params.json       # Best hyperparameters for XGBoost model
-│       │   learning_curve_xgboostmodel.png  # Learning curve of XGBoost model
-│       │
-│       └── EDA_plots/
-│               path_to_your_correlation_matrix_plot.png  # Correlation matrix visualization
-│               path_to_your_genre_distribution_plot.png  # Genre distribution plot
-│
-└── src/
-    │   data_loader.py             # Module for loading and preprocessing data
-    │   models.py                  # Defines machine learning and neural network models
-    │   training.py                # Handles training pipeline for models
-    │   utils.py                   # Utility functions for common tasks
-    │   __init__.py                # Marks `src` as a package
-\end{verbatim}
+spotify-music-genre-classification │ .gitattributes # Git configuration for file attributes │ .gitignore # Specifies files to be ignored by Git │ config.py # Configuration file for constants and settings │ main.py # Main script to run the project │ README.md # Project overview and instructions │ requirements.txt # Python dependencies for the project │ ├── data/ │ │ spotify_songs.csv # Full dataset for Spotify song information │ │ test.csv # Test dataset for model evaluation │ │ train.csv # Training dataset for model development │ ├── EDA/ │ │ exploratory_data_analysis.ipynb # Notebook for data exploration and visualization │ ├── models/ │ │ model_local_and_numerical_and_textual__data.pth # Neural network model checkpoint │ │ │ ├── randomforestmodel/ # Folder for Random Forest model files │ └── xgboostmodel/ # Folder for XGBoost model files │ │ xgboostmodel_model.joblib # Trained XGBoost model │ ├── report/ │ │ case_study.pdf # Case study document │ │ report_ELADLOUNI_MOHAMMEDALI.pdf # Final project report │ ├── results/ │ │ neural_network_hypermarameter_tuning_results._for_numerical_data.csv
+│ │ # Results of neural network hyperparameter tuning │ │ │ ├── genre_classification_predictions/ │ │ ELADLOUNI_prediction_numerical_and_textual.csv
+│ │ ELADLOUNI_prediction_numerical_data.csv
+│ │ # Model predictions for genre classification │ │ │ ├── neural_networks_losses/ │ │ loss_textual.png # Loss graph for textual features │ │ numerical_and_textual_loss.png # Loss graph for combined features │ │ training_loss_nn.png # Training loss graph for neural networks │ │ transfer_learning_loss.png # Transfer learning loss graph │ │ │ └── xgboostmodel/ │ │ best_accuracy.json # Best accuracy metrics for XGBoost model │ │ best_params.json # Best hyperparameters for XGBoost model │ │ learning_curve_xgboostmodel.png # Learning curve of XGBoost model │ │ │ └── EDA_plots/ │ path_to_your_correlation_matrix_plot.png # Correlation matrix visualization │ path_to_your_genre_distribution_plot.png # Genre distribution plot │ └── src/ │ data_loader.py # Module for loading and preprocessing data │ models.py # Defines machine learning and neural network models │ training.py # Handles training pipeline for models │ utils.py # Utility functions for common tasks │ init.py # Marks src as a package
+
+
+
+
+
+
