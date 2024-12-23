@@ -1,0 +1,22 @@
+# Ignore getattributes file
+getattributes
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+venv/
+
+# Ignore TensorFlow/Keras model files (if you're saving models)
+*.h5
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
